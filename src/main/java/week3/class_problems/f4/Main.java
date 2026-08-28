@@ -1,13 +1,14 @@
 package week3.class_problems.f4;
 
 public class Main {
+    @SuppressWarnings({"static-access", "static"})
     public static void main(String[] args) {
         System.out.println("Broken version:");
         BrokenSrmStudent s1 = new BrokenSrmStudent("Ravi", "RA01", 80);
         BrokenSrmStudent s2 = new BrokenSrmStudent("Meera", "RA02", 90);
         
-        System.out.println(s1.name);
-        System.out.println(s2.name);
+        System.out.println(s1.name + " | " + s1.regNo + " | " + s1.attendance);
+        System.out.println(s2.name + " | " + s2.regNo + " | " + s2.attendance);
         System.out.println("(Ravi's data was overwritten — both students now show \"Meera\")\n");
 
         System.out.println("Fixed version: same two students created");

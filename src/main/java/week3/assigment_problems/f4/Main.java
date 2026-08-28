@@ -1,13 +1,14 @@
 package week3.assigment_problems.f4;
 
 public class Main {
+    @SuppressWarnings({"static-access", "static"})
     public static void main(String[] args) {
         System.out.println("Broken version:");
         BrokenLibraryMember b1 = new BrokenLibraryMember("Aditi", "LM-1001", 2);
         BrokenLibraryMember b2 = new BrokenLibraryMember("Rohan", "LM-1002", 3);
         
-        System.out.println(b1.name);
-        System.out.println(b2.name);
+        System.out.println(b1.name + " | " + b1.memberId + " | " + b1.booksIssued);
+        System.out.println(b2.name + " | " + b2.memberId + " | " + b2.booksIssued);
         System.out.println("(Aditi's data was overwritten — both members now show \"Rohan\")\n");
 
         System.out.println("Fixed version: same two members created");
