@@ -31,4 +31,8 @@ public class CompanyEmployeeRecord {
         String slotDisplay = (this.slot != null) ? this.slot.slotNo : "no parking assigned";
         return this.name + " | Pay: Rs " + pay + " | Slot: " + slotDisplay;
     }
+
+    public String getEmpId() {
+        return this.empId;
+    }
 }

@@ -23,4 +23,8 @@ public class SrmStudent {
         String roomNumber = (this.room != null) ? this.room.roomNo : "unallotted";
         return this.name + " | Due: Rs " + this.feeAccount.getDue() + " | Room: " + roomNumber;
     }
+
+    public String getRegNo() {
+        return this.regNo;
+    }
 }

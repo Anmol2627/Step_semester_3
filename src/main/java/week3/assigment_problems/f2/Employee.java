@@ -14,4 +14,12 @@ public class Employee {
     public double getSalary() {
         return this.salary;
     }
+
+    public String getEmpId() {
+        return this.empId;
+    }
+
+    public String getEmpName() {
+        return this.empName;
+    }
 }

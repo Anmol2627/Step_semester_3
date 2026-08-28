@@ -22,4 +22,8 @@ public class FeeAccount {
     public double getDue() {
         return this.totalFee - this.amountPaid;
     }
+
+    public String getRegNo() {
+        return this.regNo;
+    }
 }

@@ -31,6 +31,10 @@ public class SrmStudent {
         return (double) total / students.length;
     }
 
+    public String getRegNo() {
+        return this.regNo;
+    }
+
     public static void main(String[] args) {
         SrmStudent[] students = new SrmStudent[5];
         students[0] = new SrmStudent("Ravi", "RA01", 82);

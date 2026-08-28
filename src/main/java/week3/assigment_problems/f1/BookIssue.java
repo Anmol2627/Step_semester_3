@@ -29,4 +29,12 @@ public class BookIssue {
         }
         return total;
     }
+
+    public String getTitle() {
+        return this.title;
+    }
+
+    public String getBorrowerName() {
+        return this.borrowerName;
+    }
 }
