@@ -1,3 +1,16 @@
+## Date: 05-09-2026
+
+**Today's Work:**
+- Completed Week 4 OOP assignment problems (F1-F5) covering FoodOrder ghost validation, DeliverySlot chained constructors, Canteen custom sorting logic without built-in utilities, SurgeFeeCalculator closed-form calculations with finals, and a Nightly Multi-Kitchen Reconciliation Engine handling nulls and polymorphic accounts safely.
+
+**Next Session Plan:**
+- Proceed to Week 5 OOP concepts and assignments as per the coursework structure.
+
+**Issues Faced:**
+- None
+
+---
+
 ## Date: 28-08-2026
 
 **Today's Work:**
